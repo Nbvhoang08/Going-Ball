@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5e1f874a687f743a85a498c8cf9bfd, type: 3}
+  m_Name: DUIData
+  m_EditorClassIdentifier: 
+  DatabaseUIElements:
+    categories: []
+    categoryNames: []
+  DatabaseUIButtons:
+    categories:
+    - categoryName: Uncategorized
+      itemNames:
+      - ~Button Name~
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    categoryNames:
+    - ~Custom Name~
+    - Uncategorized
+  DatabaseUICanvases:
+  - MainMenuMasterCanvas
+  - MasterCanvas
+  - Loading
+  DatabaseInAnimations:
+    categories:
+    - categoryName: Uncategorized
+      presets:
+      - {fileID: 11400000, guid: c6f98780d88d8b44bbdb1849c3916c1e, type: 2}
+      presetNames:
+      - DefaultPreset
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    categoryNames:
+    - Uncategorized
+  DatabaseOutAnimations:
+    categories:
+    - categoryName: Uncategorized
+      presets:
+      - {fileID: 11400000, guid: 80ff3b47fbd629146825c73d16c9280d, type: 2}
+      presetNames:
+      - DefaultPreset
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    categoryNames:
+    - Uncategorized
+  DatabaseLoopAnimations:
+    categories:
+    - categoryName: Elastic
+      presets: []
+      presetNames: []
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    - categoryName: Fade
+      presets: []
+      presetNames: []
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    - categoryName: Move
+      presets: []
+      presetNames: []
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    - categoryName: Organic
+      presets: []
+      presetNames: []
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    - categoryName: Rotate
+      presets: []
+      presetNames: []
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    - categoryName: Scale
+      presets: []
+      presetNames: []
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    - categoryName: Uncategorized
+      presets:
+      - {fileID: 11400000, guid: 2d6f75b0f23fec14798f41801b48dcf8, type: 2}
+      presetNames:
+      - DefaultPreset
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    - categoryName: Uncommon
+      presets: []
+      presetNames: []
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    categoryNames:
+    - Elastic
+    - Fade
+    - Move
+    - Organic
+    - Rotate
+    - Scale
+    - Uncategorized
+    - Uncommon
+  DatabasePunchAnimations:
+    categories:
+    - categoryName: Flip
+      presets: []
+      presetNames: []
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    - categoryName: Jump
+      presets: []
+      presetNames: []
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    - categoryName: Organic
+      presets: []
+      presetNames: []
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    - categoryName: Rotate
+      presets: []
+      presetNames: []
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    - categoryName: Scale
+      presets: []
+      presetNames: []
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    - categoryName: Slide
+      presets: []
+      presetNames: []
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    - categoryName: Stretch
+      presets: []
+      presetNames: []
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    - categoryName: Uncategorized
+      presets:
+      - {fileID: 11400000, guid: 39385e644d8acf941b723063db0d876b, type: 2}
+      presetNames:
+      - DefaultPreset
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    categoryNames:
+    - Flip
+    - Jump
+    - Organic
+    - Rotate
+    - Scale
+    - Slide
+    - Stretch
+    - Uncategorized
+  DatabaseStateAnimations:
+    categories:
+    - categoryName: Uncategorized
+      presets:
+      - {fileID: 11400000, guid: 0b8c57f9f1f07bc4d84072f0f6d08479, type: 2}
+      presetNames:
+      - DefaultPreset
+      isExpanded:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+    categoryNames:
+    - Uncategorized

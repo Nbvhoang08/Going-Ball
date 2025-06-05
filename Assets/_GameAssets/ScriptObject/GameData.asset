@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 654b30f9a23088440aaba095c1e3f135, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  levelPrefabs:
+  - {fileID: 4762361325815546747, guid: a3624c5ca699c6941865ecad4a979e1e, type: 3}
+  - {fileID: -8283665631681357708, guid: 4e6a0c22eaaf9b24ebe2b9f943ae8702, type: 3}
+  - {fileID: -8283665631681357708, guid: b796f3ae0b1a8814fa143ee59db531cc, type: 3}
+  - {fileID: -742848348515256797, guid: 1585ced506346b140a54989b834f67e1, type: 3}
+  - {fileID: -4711253542064377416, guid: 881a644e5121c274993d743a40a90f92, type: 3}
+  - {fileID: -8482611146804500202, guid: 954eb28262d41f24480745d41890cb44, type: 3}
+  - {fileID: 1697239556380499456, guid: b9f90efc72663d844bbf83b68fa09620, type: 3}
+  - {fileID: 8857077333057454090, guid: 3363aee39bbe06c4c974467729f9abf5, type: 3}
+  - {fileID: 8525357298875242329, guid: 29c6c3124d412b148b25e2d73731e4d0, type: 3}
+  - {fileID: 3864671835341756651, guid: 6bd75e96c3070c44fa4cb107060f0dc3, type: 3}
+  - {fileID: 9214987799172682919, guid: ee4e321cbcd1b6743b52cab805e079b3, type: 3}
+  - {fileID: 3732385733197648109, guid: 73852881f88fa4e4ab245e396e4bd259, type: 3}
+  - {fileID: 9003886673363729200, guid: b445e0e3a0d74b041b38696441fa6bb8, type: 3}
+  - {fileID: 7408144701894277527, guid: 1dcf3310fdcb69b44a0519782bf25a63, type: 3}
+  - {fileID: 5856186123054029386, guid: 888f925d40265c24da02aaf2130a0142, type: 3}
+  - {fileID: 5211572188942200829, guid: f2967e0bc2be25c44a1f42552774925a, type: 3}
+  - {fileID: 8754606309387374413, guid: 8d2d6d237a3282446a5b1f3170c61278, type: 3}
+  - {fileID: 1251744652672716862, guid: 42f1ae7a15e27954989847be0a60715a, type: 3}
+  - {fileID: 4389042835346200311, guid: 7fceb6c66d43073489bb0de9b9ba1df2, type: 3}
+  - {fileID: 8525302492043570011, guid: c761208be33d0f342a913e63b337ba68, type: 3}
+  - {fileID: 869993141376585321, guid: a8324ac326617914bb64d005f328e8ca, type: 3}
+  - {fileID: 4772233600228081060, guid: a7889c692fbd57540a951e8c0c4aa9e6, type: 3}
+  - {fileID: 8895372436981320805, guid: 8ff919d8c5eaead47a60bba1986e3415, type: 3}
+  - {fileID: 1398684949361158448, guid: c054edebd29069f4d978440578a96d9d, type: 3}
+  - {fileID: 5455305938027872428, guid: 7fd2180e7a565014b91abff82924e8cf, type: 3}
+  - {fileID: 8782206778140481657, guid: c9c30ba516d334b4eaf86bd35ca38c4f, type: 3}
+  - {fileID: 6952968562985780670, guid: 59d0ae1ddddacd44f8394efeecd82c85, type: 3}
+  - {fileID: 5493169475434644732, guid: 42fc1f6044719564ea5883dcdcc639b0, type: 3}
+  - {fileID: 1477183469055866085, guid: e6846a06b8f822f4db5b89b62fece198, type: 3}
+  - {fileID: 2944560315745596782, guid: 0f1cf793aa3766e46904b8f3faa634dd, type: 3}
+  - {fileID: 200369352906639824, guid: ea18d31f92e7dee47abef2deb46c962b, type: 3}
+  - {fileID: 7282201831686572632, guid: 3a3576c82653f3944a7c2929b7661e16, type: 3}
+  - {fileID: 3475363094092138095, guid: 4fabdfdca9c24e04da34f062f271f814, type: 3}
+  - {fileID: 8751702735093214351, guid: a1740f3be3c848e40b9eaa7d9de31082, type: 3}
+  - {fileID: 5288245703673982121, guid: 5d3b6dfdc1b2b6848aaffb44ece666c3, type: 3}
+  - {fileID: 5385319178290621769, guid: b63ba11349164a545ad00803b9a9c98b, type: 3}
+  - {fileID: 3558071755267132435, guid: f3deb8e378abbe1418b88e4aeb8f5abf, type: 3}
+  - {fileID: 8479840969924233914, guid: c1a4efb418e14af419ae783c95c2c1a9, type: 3}
+  - {fileID: 6852271806577174223, guid: de1deb7e3b906d94e94039892e0ec962, type: 3}
+  - {fileID: 6716699139119750322, guid: 1436e1479becf194cb89420accb74322, type: 3}
+  - {fileID: 422521459791013089, guid: 271837d4cde57c24695abc7af3099c60, type: 3}
+  - {fileID: 2135701968229052961, guid: 36e97553e7ba111478beadd0b74e3c4c, type: 3}
+  - {fileID: 1584038673707096416, guid: 22817bd0d289d8e4e94d5332750a6e86, type: 3}
+  - {fileID: 2429715092114397336, guid: 8f29e81779eaf1843b735ae3a0c2a3a2, type: 3}
+  - {fileID: 2531783517737440606, guid: 00a458f0d79428c418ccb4198d38b4b3, type: 3}
+  - {fileID: 6546949916671784342, guid: 0ae71b3635bc978449955e7c0e9ed752, type: 3}
+  - {fileID: 862464919526928422, guid: 7ff858a00a11ecd439f4b66d51336a5a, type: 3}
+  - {fileID: 8005068956983299760, guid: 25bc3c4d674cff346b9e9cc7b3078d4f, type: 3}
+  - {fileID: 8249833405847165839, guid: 6ffbf5427aed20847b88e5026a0c6d5b, type: 3}
+  - {fileID: 75097011470991678, guid: 05d912cd99adb8a4eae5a6646531b2b4, type: 3}
+  - {fileID: 3598687278367325882, guid: c74c9dc04af4ee943984adc100832d71, type: 3}
+  - {fileID: 2567760502926128935, guid: 19f926e28b423ce499c5dc547173330a, type: 3}
+  - {fileID: 1265916689882868473, guid: 00e79921925cf35428f80acb31e051f9, type: 3}
+  - {fileID: 1128281977074494838, guid: eed974496cb55134b9335789929153b6, type: 3}
+  - {fileID: 5364690103479210148, guid: f43a0ab5b4723044e9bbaf1685c10ced, type: 3}
+  - {fileID: 1431246656335283687, guid: c6bfe4cb685fcb74aabb7ad8113e6b68, type: 3}
+  - {fileID: 1247527685981616636, guid: 8e7940ada0871204d994e42f22a5a7df, type: 3}
+  - {fileID: 2387150555900969482, guid: 40f047d884bb9d341abf264cbf845f31, type: 3}
+  - {fileID: 8418582979667843477, guid: d29b2c50742440e47b06fe74e0b122ab, type: 3}
+  - {fileID: 7664338026561526855, guid: c01a500f6e371024b9d5cb0044409c56, type: 3}
+  - {fileID: 896085951945512431, guid: e7b8e102729eeb6479644188b8bfdaff, type: 3}
+  - {fileID: 6222692440300767349, guid: 0b13e8a5cee5ed54fb7c32f96a504745, type: 3}
+  - {fileID: 5793198758115710826, guid: 426121f7442297f4ea7e0c6f40066f8c, type: 3}
+  - {fileID: 6284203334291452280, guid: 751e71505d9cb934ba26648f53c0a7ad, type: 3}
+  - {fileID: 2746052467781212068, guid: 3dc6f966e6226874d98c84114c3f5632, type: 3}
+  - {fileID: 6472919137994346752, guid: efe6cd6753204d2479d025bc04d60691, type: 3}
+  - {fileID: 7149588786373593682, guid: c3698a4df6823734482f40ae0fb08880, type: 3}
+  - {fileID: 2656924108225965109, guid: 2e6e78826900d3c4f863f920871973ce, type: 3}
+  - {fileID: 7905768672208367537, guid: bb6ff990ed9b5f743982052e2cc98bcb, type: 3}
+  - {fileID: 2248220201108319446, guid: 35ba155a83a775847b151d19e65b57a9, type: 3}
+  BallInfors:
+  - typeBall: 0
+    state: 1
+    price: 0
+  - typeBall: 1
+    state: 0
+    price: 200
+  - typeBall: 2
+    state: 0
+    price: 3100
+  - typeBall: 3
+    state: 0
+    price: 500
+  - typeBall: 4
+    state: 0
+    price: 8400
+  - typeBall: 5
+    state: 1
+    price: 100
+  - typeBall: 6
+    state: 1
+    price: 12000
+  - typeBall: 7
+    state: 0
+    price: 6100
+  - typeBall: 8
+    state: 1
+    price: 5000
+  - typeBall: 9
+    state: 0
+    price: 7300
+  - typeBall: 10
+    state: 0
+    price: 9600
+  - typeBall: 11
+    state: 1
+    price: 3100
+  - typeBall: 12
+    state: 2
+    price: 800
+  - typeBall: 13
+    state: 0
+    price: 4200
+  - typeBall: 14
+    state: 0
+    price: 3600
+  - typeBall: 15
+    state: 1
+    price: 300
+  - typeBall: 16
+    state: 1
+    price: 1600
+  - typeBall: 17
+    state: 0
+    price: 1900
+  - typeBall: 18
+    state: 0
+    price: 2600
+  - typeBall: 19
+    state: 0
+    price: 800
+  - typeBall: 20
+    state: 0
+    price: 1100
+  trailPrefabs:
+  - type: 0
+    state: 0
+    price: 0
+  - type: 1
+    state: 0
+    price: 0
+  - type: 2
+    state: 0
+    price: 0
+  - type: 3
+    state: 1
+    price: 0
+  - type: 4
+    state: 0
+    price: 0
+  - type: 5
+    state: 0
+    price: 0
+  - type: 6
+    state: 0
+    price: 0
+  - type: 7
+    state: 0
+    price: 0
+  - type: 8
+    state: 1
+    price: 0
+  - type: 9
+    state: 0
+    price: 0
+  - type: 10
+    state: 0
+    price: 0
+  - type: 11
+    state: 0
+    price: 0
+  - type: 12
+    state: 0
+    price: 0
+  - type: 13
+    state: 0
+    price: 0
+  - type: 14
+    state: 0
+    price: 0
+  - type: 15
+    state: 0
+    price: 0
+  - type: 16
+    state: 0
+    price: 0
+  - type: 17
+    state: 0
+    price: 0
+  - type: 18
+    state: 0
+    price: 0
+  skyBoxInfors:
+  - material: {fileID: 2100000, guid: d74ee586b5ed4f940844589d74eb8054, type: 2}
+    fogColor: {r: 1, g: 1, b: 1, a: 1}
+    name: beachtheme
+    state: 1
+    price: 0
+  - material: {fileID: 2100000, guid: d408108e5e1cb14479ccf3a3d59f6a15, type: 2}
+    fogColor: {r: 1, g: 1, b: 1, a: 0}
+    name: beach2
+    state: 0
+    price: 0
+  - material: {fileID: 2100000, guid: 92fc0a3f072eeba49b638d2bc6e3c40e, type: 2}
+    fogColor: {r: 1, g: 1, b: 1, a: 0}
+    name: beach3
+    state: 0
+    price: 0
+  - material: {fileID: 2100000, guid: 791e9cdd503435246b83c7e2b49b89ca, type: 2}
+    fogColor: {r: 1, g: 1, b: 1, a: 0}
+    name: anime sky1
+    state: 2
+    price: 0
+  - material: {fileID: 2100000, guid: 145e46f702915cb4ab603e975e468962, type: 2}
+    fogColor: {r: 1, g: 1, b: 1, a: 0}
+    name: cloudy_sky
+    state: 0
+    price: 0
+  - material: {fileID: 2100000, guid: a60468b09bc717942bd99ae56181a0b8, type: 2}
+    fogColor: {r: 0, g: 0, b: 0, a: 0}
+    name: forest
+    state: 0
+    price: 0
+  - material: {fileID: 2100000, guid: b31f55a61465b15409973a9034b320be, type: 2}
+    fogColor: {r: 1, g: 1, b: 1, a: 0}
+    name: galaxy 3
+    state: 1
+    price: 0
+  - material: {fileID: 2100000, guid: c67d01f26cba49e4082239807f29ba87, type: 2}
+    fogColor: {r: 1, g: 1, b: 1, a: 0}
+    name: in_the_clouds_6k
+    state: 0
+    price: 0
+  - material: {fileID: 2100000, guid: e0b29b2a8977cd24a83bec507bd8283f, type: 2}
+    fogColor: {r: 1, g: 1, b: 1, a: 0}
+    name: lowpoly
+    state: 0
+    price: 0
+  - material: {fileID: 2100000, guid: 51492ba8e0f5d2846bb12593ab17bf57, type: 2}
+    fogColor: {r: 1, g: 1, b: 1, a: 0}
+    name: purple cloud
+    state: 0
+    price: 0
+  - material: {fileID: 2100000, guid: c539bccad144a22419b20fec08b9253b, type: 2}
+    fogColor: {r: 1, g: 1, b: 1, a: 0}
+    name: restaurant2
+    state: 0
+    price: 0
+  - material: {fileID: 2100000, guid: 075c85bbb3575c941bec3c35157f0558, type: 2}
+    fogColor: {r: 1, g: 1, b: 1, a: 0}
+    name: skybeach
+    state: 0
+    price: 0
+  - material: {fileID: 2100000, guid: 90cecab6ccc128741a9fbecd5843c1df, type: 2}
+    fogColor: {r: 1, g: 1, b: 1, a: 0}
+    name: snow
+    state: 0
+    price: 0
+  - material: {fileID: 2100000, guid: d2db5a223d1a55545b9b40ae34fc0012, type: 2}
+    fogColor: {r: 1, g: 1, b: 1, a: 0}
+    name: sunny_day_at_the_beach
+    state: 0
+    price: 0
+  ticketSprites:
+  - {fileID: 21300000, guid: 81628d1ee6e0d964c862ca663ef8843f, type: 3}
+  - {fileID: 21300000, guid: e2155e69dd6ec14459ec6c8eb78f0fb8, type: 3}
+  keySprites:
+  - {fileID: 21300000, guid: 6bf700865dbf9e240946cd6338184d63, type: 3}
+  - {fileID: 21300000, guid: 16496756ec959ff46b766bc3dd76ad0f, type: 3}
+  coinSprites: []
+  treasureSprite: {fileID: 21300000, guid: 4e95859062c72c14ca640b681f400204, type: 3}

@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: FastPoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3fe984997ad302409b2ad4e270c1c8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  predefinedPools:
+  - sourcePrefab: {fileID: 1004942289608736, guid: 455b1c3238d60f14eafc0b80260daeea,
+      type: 2}
+    Capacity: 0
+    PreloadCount: 1
+    NotificationType: 0
+    WarmOnLoad: 0
+    ParentOnCache: 0
+    useCustomID: 0
+    customID: 2236
+    cached_internal: 0
+  - sourcePrefab: {fileID: 1287868785354132, guid: 37fd362207c78954dab366fc83437c9a,
+      type: 2}
+    Capacity: 0
+    PreloadCount: 1
+    NotificationType: 0
+    WarmOnLoad: 0
+    ParentOnCache: 0
+    useCustomID: 0
+    customID: 7048
+    cached_internal: 0
+  - sourcePrefab: {fileID: 1323134625143626, guid: 1a92b982c0108614b9acaa16517b076c,
+      type: 2}
+    Capacity: 0
+    PreloadCount: 1
+    NotificationType: 0
+    WarmOnLoad: 0
+    ParentOnCache: 0
+    useCustomID: 0
+    customID: 1250
+    cached_internal: 0
+  - sourcePrefab: {fileID: 1751721670069692, guid: a8c24b46c3b3d3147875e67275555ae4,
+      type: 2}
+    Capacity: 0
+    PreloadCount: 1
+    NotificationType: 0
+    WarmOnLoad: 0
+    ParentOnCache: 0
+    useCustomID: 0
+    customID: 8882
+    cached_internal: 0
+  - sourcePrefab: {fileID: 1284250645100160, guid: 5a35c773eef53fe4794a6e75b4bb5751,
+      type: 2}
+    Capacity: 0
+    PreloadCount: 1
+    NotificationType: 0
+    WarmOnLoad: 0
+    ParentOnCache: 0
+    useCustomID: 0
+    customID: 8267
+    cached_internal: 0
+  - sourcePrefab: {fileID: 1284250645100160, guid: 1cdafbec524447b46a9360a9258c02e5,
+      type: 2}
+    Capacity: 0
+    PreloadCount: 1
+    NotificationType: 0
+    WarmOnLoad: 0
+    ParentOnCache: 0
+    useCustomID: 0
+    customID: 4798
+    cached_internal: 0
+  - sourcePrefab: {fileID: 1284250645100160, guid: 55c06af8e75213c4ba99a6fbd9732f62,
+      type: 2}
+    Capacity: 0
+    PreloadCount: 1
+    NotificationType: 0
+    WarmOnLoad: 0
+    ParentOnCache: 0
+    useCustomID: 0
+    customID: 3684
+    cached_internal: 0
+  - sourcePrefab: {fileID: 1284250645100160, guid: 6bc3cfd4f2c5f8c44870e79b4c2b3edf,
+      type: 2}
+    Capacity: 0
+    PreloadCount: 1
+    NotificationType: 0
+    WarmOnLoad: 0
+    ParentOnCache: 0
+    useCustomID: 0
+    customID: 7365
+    cached_internal: 0
+  - sourcePrefab: {fileID: 1284250645100160, guid: 77a6161b459fbd34cbbff3afac8ffd8b,
+      type: 2}
+    Capacity: 0
+    PreloadCount: 1
+    NotificationType: 0
+    WarmOnLoad: 0
+    ParentOnCache: 0
+    useCustomID: 0
+    customID: 5080
+    cached_internal: 0
+  - sourcePrefab: {fileID: 1284250645100160, guid: d5420b7d06acf21468c1a024729434ec,
+      type: 2}
+    Capacity: 0
+    PreloadCount: 1
+    NotificationType: 0
+    WarmOnLoad: 0
+    ParentOnCache: 0
+    useCustomID: 0
+    customID: 3674
+    cached_internal: 0
+  - sourcePrefab: {fileID: 1284250645100160, guid: 8b6ed35747626b54cb851d0f3ea6c5ac,
+      type: 2}
+    Capacity: 0
+    PreloadCount: 1
+    NotificationType: 0
+    WarmOnLoad: 0
+    ParentOnCache: 0
+    useCustomID: 0
+    customID: 5305
+    cached_internal: 0
+  - sourcePrefab: {fileID: 1284250645100160, guid: 6c9c54756d0a99f479605fec0ee334d8,
+      type: 2}
+    Capacity: 0
+    PreloadCount: 1
+    NotificationType: 0
+    WarmOnLoad: 0
+    ParentOnCache: 0
+    useCustomID: 0
+    customID: 422
+    cached_internal: 0
+  - sourcePrefab: {fileID: 1008257055042816, guid: b7063dee1283fa047b88039e3b0878a4,
+      type: 2}
+    Capacity: 0
+    PreloadCount: 1
+    NotificationType: 0
+    WarmOnLoad: 0
+    ParentOnCache: 0
+    useCustomID: 0
+    customID: 2020
+    cached_internal: 0
+  - sourcePrefab: {fileID: 1357638961296742, guid: f6569af94a0c41b4da43021bcfbfa2d7,
+      type: 2}
+    Capacity: 0
+    PreloadCount: 1
+    NotificationType: 0
+    WarmOnLoad: 0
+    ParentOnCache: 0
+    useCustomID: 0
+    customID: 5154
+    cached_internal: 0
+  - sourcePrefab: {fileID: 1556657718307998, guid: 99cd3e760d5fbff47a2a6e81f19af29a,
+      type: 2}
+    Capacity: 0
+    PreloadCount: 1
+    NotificationType: 0
+    WarmOnLoad: 0
+    ParentOnCache: 0
+    useCustomID: 0
+    customID: 8677
+    cached_internal: 0
+  - sourcePrefab: {fileID: 1442619237891506, guid: 52c1005d95f60af4d9bfca03ed727f57,
+      type: 2}
+    Capacity: 0
+    PreloadCount: 1
+    NotificationType: 0
+    WarmOnLoad: 0
+    ParentOnCache: 0
+    useCustomID: 0
+    customID: 908
+    cached_internal: 0
+  - sourcePrefab: {fileID: 1002116767960334, guid: 85712ae2e2c803a4c9c7a19fb4b0c7a6,
+      type: 2}
+    Capacity: 0
+    PreloadCount: 1
+    NotificationType: 0
+    WarmOnLoad: 0
+    ParentOnCache: 0
+    useCustomID: 0
+    customID: 5599
+    cached_internal: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabAsset: 1
